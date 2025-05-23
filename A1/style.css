@@ -13,3 +13,50 @@ a {
     color: #8B949E;
     text-decoration:none;
 }
+
+a:hover {
+    color:#8B949E;
+    text-decoration: none;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+
+h1 + p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius:5px;
+}
+
+
+ul li:hover {
+    color: #4F8CC9;
+}
+
+
+ul li:nth-child(3) {
+    background-attachment: #21262D;
+}
+
+
+p:not(:first-of-type) {
+    text text-decoration: underline;
+}
+
+
+ul li::before {
+    content: "Space "
+}
+
+
+a::after {
+    content: " Water";
+}
+
+
+p::first-letter {
+    font-size: 200%;
+    color: #FF7B72
+}
